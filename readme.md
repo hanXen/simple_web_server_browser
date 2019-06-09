@@ -28,9 +28,9 @@
 
 ## Web application scenarios
 
-1. The client firstly reads the server’s IP address ( e.g. , 163.152.6.10) from the command line and performs the GET method to the server with root path ( i.e. , /). 
+1. The client firstly reads the server’s IP address (e.g. 163.152.6.10) from the command line and performs the GET method to the server with root path (i.e. /). 
  
-2. The server reads the HTTP GET request from the client ( i.e. , GET / HTTP/1.1) and responds to it with the content of ```index.html```. 
+2. The server reads the HTTP GET request from the client (i.e. GET / HTTP/1.1) and responds to it with the content of ```index.html```. 
     ```
     <!--index.html--> 
     <html> 
