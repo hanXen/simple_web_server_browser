@@ -47,7 +47,7 @@
     </html>
     ```
 
-3. The client, receiving the response from the server, parses the content of the index.html and requests the resources specified in the index.html file (in this scenario, there are app.js, app2.js, app3.js, and style.css). The server then responds to each request, respectively. In that moment, the client and the server maintain a keep-alive connection, so the sequence of request-responses is conducted over the same TCP connection. The resources, app1.js, app2.js, app3.js, and style.css, are given as follows: 
+3. The client, receiving the response from the server, parses the content of the ```index.html``` and requests the resources specified in the index.html file (in this scenario, there are ```app.js```, ```app2.js```, ```app3.js```, and ```style.css```). The server then responds to each request, respectively. In that moment, the client and the server maintain a keep-alive connection, so the sequence of request-responses is conducted over the same TCP connection. The resources, ```app1.js```, ```app2.js```, ```app3.js```, and ```style.css```, are given as follows: 
 
     ```
     //app.js 
